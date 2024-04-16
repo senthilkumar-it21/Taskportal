@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 100vh; /* Adjust as needed for full viewport height */
+
+}

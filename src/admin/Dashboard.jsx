@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar';
-
+import "./Admin.css"
+import Addemp from './Addemp';
 const Dashboard = () => {
 
   return (
 
-    <div className='flex' style={{direction : "flex", flexDirection : "row"}}>
-
+    <div className='flex1'>
           <Navbar />
-          <h1>hi</h1>
+          <Addemp />
     </div>
     
   )
